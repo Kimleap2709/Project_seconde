@@ -1,0 +1,270 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  position: sticky;
+  top:0;
+  z-index: 10;
+  background-color: whitesmoke;
+}
+.nav .contianer {
+  width: 1200px;
+  margin: auto;
+}
+.search {
+  height: 30px;
+  margin-left: 45rem;
+  margin-top: 5px;
+  border-radius: 6px;
+  width: 220px;
+}
+.submit {
+  width: 50px;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 6px;
+  margin-left: 3px;
+}
+.logo {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-family: "Sigmar", sans-serif;
+  padding-left: 5rem;
+}
+.i-user {
+  color: black;
+  display: flex;
+  padding-left: 15px;
+}
+.i-shop {
+  color: black;
+  display: flex;
+  padding-left: 10px;
+}
+
+.info {
+  width: 100%;
+  height: 700px;
+  /* background-color: whitesmoke; */
+}
+.Menu .container {
+  width: 1200px;
+  margin: auto;
+}
+.Menu .navbar-nav {
+  list-style: none;
+  display: flex;
+  padding-top: 1rem;
+}
+.Menu .nav-link{
+  padding-top: 2rem;
+  text-decoration: none;
+  font-family: "Sigmar", sans-serif;
+  color: black;
+  padding: 10px 15px;
+  display: block;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.Menu .btn {
+  padding-top: 2rem;
+  text-decoration: none;
+  font-family: "Sigmar", sans-serif;
+  color: black;
+  padding: 10px 15px;
+  display: block;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.Menu .btn-g {
+  padding-top: 2rem;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  padding: 10px 25px;
+  display: block;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  
+}
+.Menu .btn:hover {
+  background-color: whitesmoke;
+}
+.Menu .btn-g:hover {
+  background-color: whitesmoke;
+}
+.hero-banner {
+  width: 100%;
+  height: 550px;
+  margin-top: 2rem;
+}
+.hero-banner .container {
+  width: 1200px;
+  margin: auto;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 15px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.forum  img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.forum  {
+  width: 100%;
+  height: 1000px;
+}
+.forum  .container{
+  width: 1200px;
+  margin: auto;
+}
+.forum  .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-3{
+  width: 25%;
+  /* border: 1px solid black; */
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.forum  .card{
+  width: 100%;
+  height: 270px;
+  position: relative;
+}
+.forum  .card-price{
+  width: 100%;
+  height: 90px;
+  background-color: whitesmoke;
+  position: absolute;
+  margin-top: 14rem;
+  padding-top:20px;
+  padding-left: 5px;
+
+}
+.card-price:hover{
+  color: grey;
+
+}
+.forum .text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14;
+}
+.forum .price{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+}
+.flip-flops{
+  width: 100%;
+  height: 385px;
+  margin-top: 3rem;
+}
+.flip-flops .container{
+  width: 1200px;
+  margin: auto;
+}
+.flip-flops .title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+.flip-flops .row{
+  display: flex;
+}
+.flip-flops .col-3{
+  width: 25%;
+  padding: 10px;
+}
+.flip-flops  .card{
+  width: 100%;
+  height: 330px;
+  position: relative;
+  background-color: red;
+}
+.flip-flops  .card-price{
+  width: 100%;
+  height: 60px;
+  background-color: whitesmoke;
+  position: absolute;
+  margin-top: 17rem;
+  padding-top:20px;
+  padding-left: 5px; 
+}
+ .flip-flops .card-price:hover{
+  color: grey;
+  
+}
+.flip-flops img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.flip-flops .text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.flip-flops  .price{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+}
+.footer{
+  width: 100%;
+  background-color: whitesmoke;
+  height: 350px;
+  margin-top: 2rem;
+}
+.footer .container{
+  width: 1200px;
+  margin: auto;
+}
+.footer .title{
+  font-family: "Battambang", system-ui;
+  font-size: 15px;
+  padding-top: 1rem;
+}
+.footer .text{
+  font-family: "Battambang", system-ui;
+  font-size: 14px;
+  padding-top: 1rem;
+}
+.footer .row{
+  display: flex;
+}
+.col-4{
+  width: 33.33%;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+}
+.footer .card{
+  width: 100%;
+  height: 150px;
+  /* background-color: red; */
+  margin-top: 2rem;
+}
